@@ -21,27 +21,12 @@ function CalendarSpace() {
         }
         getEvento();        
     }, []);          
-     
-    const novoJson = [{
-                                     
-        StartTime: new Date(2022,1,15),
-        EndTime: new Date(2022,1,15)                                 
-    },
-    {
-                                    
-        StartTime: new Date(2022,1,16),
-        EndTime: new Date(2022,1,16)                                 
-    }
-]  
-
+        
     const novoJson2 = [];
 
-    evento.map((obj)=>{
+    evento.map((obj)=>(
         novoJson2.push({"StartTime":new Date(obj.StartTime),"EndTime":new Date(obj.EndTime)})        
-    })
-    
-    console.log(novoJson2);
-    console.log(novoJson);
+    ))      
                     
     return ( 
         <CalendarDiv>
