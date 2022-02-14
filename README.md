@@ -33,9 +33,3 @@ Você também pode ver os erros no console.
 Ele irá rodar o seu servidor.
 Para rodar o servidor, você deverá adicionar o seguinte comando para o arquivo package.json - ir em "Scripts": 
 "server": "json-server --watch server.json -p 3333"
-
-## ej2-react-schedule
-
-The React Scheduler component is an event calendar that facilitates almost all the basic Outlook and Google Calendar features, allowing the user to plan and manage appointments and time efficiently. It receives data from a variety of data sources, such as an array of JSON objects
-
-
