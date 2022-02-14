@@ -1,20 +1,28 @@
 {
   "dataSource":[
-    {            
+    {  
+      "id": 1,          
       "StartTime": "2022,2,15",  
-      "EndTime": "2022,2,15"       
+      "EndTime": "2022,2,15",
+      "color": "green"      
     },  
-    {            
+    {     
+      "id": 2,       
       "StartTime": "2022,2,15",  
-      "EndTime": "2022,2,15"       
+      "EndTime": "2022,2,15",
+      "color": "pink"       
     }, 
-    {            
+    {         
+      "id": 3,   
       "StartTime": "2022,2,16",  
-      "EndTime": "2022,2,16"       
+      "EndTime": "2022,2,16",
+      "color": "blue"       
     },  
-    {            
+    {    
+      "id": 4,        
       "StartTime": "2022,2,17",  
-      "EndTime": "2022,2,17"       
+      "EndTime": "2022,2,17",
+      "color": "green"        
     }
   ]       
 }
