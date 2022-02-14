@@ -1,28 +1,48 @@
 {
   "dataSource":[
     {  
-      "id": 1,          
+      "id": 1, 
+      "title": "Teste1",
+      "idField": "1",
+      "field": "1",
+      "name": "teste1",
+      "textField": "OwnerText1",        
       "StartTime": "2022,2,15",  
       "EndTime": "2022,2,15",
-      "color": "green"      
+      "color": "#59BAA3"      
     },  
     {     
-      "id": 2,       
+      "id": 2,  
+      "title": "Teste2",
+      "idField": "2",
+      "field": "2",
+      "name": "teste2",     
+      "textField": "OwnerText2",
       "StartTime": "2022,2,15",  
       "EndTime": "2022,2,15",
-      "color": "pink"       
+      "color": "#59BAA3"       
     }, 
     {         
-      "id": 3,   
+      "id": 3, 
+      "title": "Teste3",
+      "field": "3",
+      "idField": "3",
+      "name": "teste1",
+      "textField": "OwnerText3",  
       "StartTime": "2022,2,16",  
       "EndTime": "2022,2,16",
-      "color": "blue"       
+      "color": "#FFC152"       
     },  
     {    
-      "id": 4,        
+      "id": 4, 
+      "title": "Teste4",  
+      "field": "4",
+      "idField": "3",
+      "name": "teste4",
+      "textField": "OwnerText4",     
       "StartTime": "2022,2,17",  
       "EndTime": "2022,2,17",
-      "color": "green"        
+      "color": "#FFC152"        
     }
   ]       
 }
